@@ -6,7 +6,6 @@ const { DEFAULT_PROMPT } = require("./data/prompt");
 const data_default = require("./data/data");
 
 const app = express();
-const BASE_PATH = "/Users/kailaswalldoddi/Documents/kw/json-evaluator/data/";
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
