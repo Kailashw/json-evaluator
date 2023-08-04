@@ -9,25 +9,41 @@ The application allows users to generate their custom JSONPath queries automatic
 ## Installation
 
 1. Clone the repository:
-   `git clone https://github.com/kailashw/json-evaluator.git`
+
+   ```
+   git clone https://github.com/kailashw/json-evaluator.git
+   ```
 
 2. Change into the project directory:
-   `cd json-evaluator`
+
+   ```
+   cd json-evaluator
+   ```
 
 3. Install dependencies:
-   `npm install`
 
-4. touch .env and add the line,
-   `OPENAI_API_KEY="YOUR_OPEN_API_KEY"`
+   ```
+   npm install
+   ```
+
+4. create a `.env` file and add your open api key.
+
+   ```
+   touch .env
+
+   OPENAI_API_KEY="YOUR_OPEN_API_KEY"
+   ```
 
 5. Start the application:
-   `npm start`
+   ```
+   npm start
+   ```
 
 The API will be available at `http://localhost:3000`.
 
 ## API Endpoints
 
-### POST /filter
+### POST `/filter`
 
 Endpoint for filtering user data based on user-defined JSONPath queries.
 
@@ -58,4 +74,4 @@ If you'd like to contribute to this project, feel free to open an issue or submi
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
